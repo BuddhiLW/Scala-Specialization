@@ -1,0 +1,24 @@
+#+title: Readme
+
+* TODO Scala Functional Programming Course
+DEADLINE: <2023-11-28 Tue> SCHEDULED: <2023-11-07 Tue>
+** DONE Week 1
+DEADLINE: <2023-11-08 Wed> SCHEDULED: <2023-11-07 Tue>
+
+* Sanity check
+#+begin_src scala
+val l = List(3,7,2)
+// val l: List[Int] = List(3, 7, 2)
+
+l
+// val res0: List[Int] = List(3, 7, 2)
+
+l.isEmpty
+// val res1: Boolean = false
+
+l.tail.head
+// val res2: Int = 7
+
+List().isEmpty
+// val res3: Boolean = true
+#+end_src
